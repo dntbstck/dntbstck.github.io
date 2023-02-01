@@ -1,0 +1,93 @@
+.lup{
+    object-fit: contain;
+}
+
+body{
+  
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+header{
+    
+    margin: 16px;
+    padding: 16px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+div{
+    display: block;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 750px;
+}
+
+.top{
+    
+    display: block;
+    width: 300px;
+    margin: 40px auto;
+}
+
+.img-neptuna{
+    
+    border-radius: 3px;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.img-neptuna:hover{
+    transform: scale(1.03);
+}
+
+
+.link{
+    color: white;
+}
+
+.icons {
+    margin: 10%;
+    display: flex;
+    -webkit-justify-content: space-between;
+    
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.footer {
+
+    padding: 0 20px;
+}
+
+@media only screen and (max-width: 390px) {
+    body{
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width: 391px) {
+    body{
+        background-color: white;
+    }
+}
+
